@@ -1,0 +1,11 @@
+===============================
+1.1 What is responsive design?
+===============================
+
+Screen sizes are getting smaller and bigger. 
+
+Responsive design is a design strategy that is centered on designing your content so that it responds to the environment it's encountered in.
+
+Three fundamental techniques for responsive design: - Fluid grids for flexible layouts, 
+- Media queries to help you adapt content to specific screen sizes. 
+- Flexible images and media that respond to changes in screen sizes as well.
