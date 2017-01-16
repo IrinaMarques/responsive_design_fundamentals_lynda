@@ -63,3 +63,13 @@ Javascript
 - Device Functionality
 
 The techniques and strategies behind responsive design are continuing to evolve. That means that as a designer, you should explore multiple techniques, experiment with your own, and think about how responsive design fits in your overall site strategy.
+
+================================
+1.4 Exploring a responsive site
+================================
+
+Example of a fluid website:
+http://www.html5rocks.com
+
+
+
