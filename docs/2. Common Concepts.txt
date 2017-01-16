@@ -21,3 +21,67 @@ When you compare that to an iPhone with a screen width of 320 pixels, you can se
 Typically, mobile browsers will display a web page within the viewport and then shrink that viewport down until the content fits within the width of the screen itself.
 
 So, in order to build responsive sites that fit neatly within mobile screen sizes, you'll need to know how to control both the viewport size and its initial scale factor.
+
+=========================
+2.2 Controlling viewports
+=========================
+
+-- How to control the viewport --
+
+Two mechanisms for overriding the user agent's default viewport.
+- Viewport meta tag
+- @ viewport CSS rule
+
+Viewport meta tag:
+Appears in the head of HTML
+<head>
+<meta name='viewport' content='width=480, initial-scale=1'>
+</head>
+Contain:
+- name that is viewport.
+- content which will contain the properties and values you wish to set for the viewport itself.
+
+@ viewport CSS rule:
+/* CSS Doxument*/
+@viewport {
+width: 480px;
+zoom: 1;
+}
+- Should be placed before media queries.
+
+-- Width of the Viewport --
+
+<meta name='viewport' content='width 320'>
+@viewport { width: 320px; }
+
+Not all mobile screens are 320px width
+If your website is using a fluid layout, you're going to want the layout to be based on the available screen width of the device and not limit the viewport to just one single size.
+
+We can use the property value device width.
+<meta name='viewport' content='width=device-width'>
+@viewport { width: device-width;}
+Setting this will remove any initial viewport scaling and allows you to create fluid layouts that adapt to multiple devices.
+
+Can also set the height of the viewport, to either a specific value or by using the value device height.
+
+-- Initial Scale --
+
+The initial scale value for the property's content: Initial scale controls the zoom factor of your content for the initial view of the page.
+Ex. initial scale is set to 2 so the content will be scaled up to 200%. 
+Ex.
+<meta name ='viewport' content ='width=device-width, initial scale= 2'>
+@viewport {
+width: device-width;
+zoom: 2;
+}
+Control how many zoom can do in a page:
+<meta name='viewport' content='width=device-width, minimum-scale=1, maximum-scale=2>
+@viewport {
+width: device-width;
+min-zoom:1; (user can't scale down pass 100%)
+max-zoom:2; (user can scale up to 200%)
+}
+
+--> http://goo.gl/FV5Pa
+
+Best use is the <meta name='viewport'> have near universal support.
