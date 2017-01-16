@@ -208,3 +208,31 @@ Media queries can also be used in several different places:
 Media queries specification:
 http://goo.gl/rdG8e
 
+===========================================
+2.6 Creating breakpoints with media queries
+===========================================
+
+Breakpoint indicates the moment your layout switches from one layout to another, and is usually triggered by the width of a screen. 
+
+Most common breakpoints:
+
+@media only screen and (max-width: 480px) { }
+For mobile styles.
+
+@media only screen and (min-width: 481px) and (max-width: 768px) { } 
+For tablet styles
+
+@media only screen and (min-width: 769px) { }
+For desktop styles
+
+--> img/common_breakpoints.png 
+--> img/common_breakpoints_media_queries.png
+
+Although device-width is also an option, width is slightly more flexible. Device-width is equal to the available pixels on the device itself, whereas width simply refers to the width of the viewport. This means that any resizing that's done to the viewport will actually trigger media queries if you're using width. Plus, there are inconsistencies in how devices report device-width, which makes width a slightly more stable choice. 
+
+The size shouldn't be in px but in em's 
+ex. 
+max-width: 480px
+480 / 16 (default font size) = 30 em's
+
+To create a layout that's truly responsive, you'll need to combine these breakpoints with fluid grids.
