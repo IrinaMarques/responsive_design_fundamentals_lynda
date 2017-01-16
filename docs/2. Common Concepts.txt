@@ -85,3 +85,35 @@ max-zoom:2; (user can scale up to 200%)
 --> http://goo.gl/FV5Pa
 
 Best use is the <meta name='viewport'> have near universal support.
+
+===================================
+2.3 Understanding screen densities
+===================================
+
+Screen density is the number of pixels within a physical area of a screen, and newer screens are featuring higher and higher screen densities every year. 
+
+Two type of pixels:
+- Hardware pixels
+- Reference pixels
+
+--> img/hardware_pixels.png
+
+Reference pixel - "CSS pixel"
+Is a unit of measurement that establishes an optical standard for the length of a pixel and is totally independent of hardware pixels.
+
+device-pixel-ratio - the ratio between reference pixels and hardware pixels. 
+
+--> img/reference_pixels.png
+
+--> http://goo.gl/5aFuY
+
+Android uses 4 devices pixel ratios:
+- low density - 0.75 screens up to 120 ppi
+- medium density - 1.0 screens up to 160 ppi
+- high density - 1.5 screens up to 240 ppi
+- extra high density - 2.0 screens up to 230 ppi
+
+--> img/android_pixel_ratios.png
+
+The screen densities are important for images.
+When building responsive sites, you'll need to decide whether or not you also want to supply larger images for higher-density screens. 
