@@ -1,0 +1,23 @@
+==================================
+2.1 Examining the mobile viewport
+==================================
+
+How the viewport works:
+iPhone 3GS - 320 x 480
+
+First have to understand what the mobile viewport is and how it relates to the mobile screen.
+
+When we're browsing on a desktop device, the concept of the viewport becomes a little more obvious, as any open browser window is defined as the viewport. Because the viewport is independent of the screen, we can resize it to whatever size we want. 
+
+On mobile devices, the viewport functions in much the same way. It gives you a defined area to display web pages that is independent of the device's screen. It's simply not as obvious as the desktop viewport, and users don't actually resize the viewport as much as they scale it up or down when they zoom in and out of web pages.
+
+Because of the small size of mobile screens, mobile viewports are designed to be larger than the screen's resolution. 
+
+Mobile Safari has a viewport of 980 pixels. 
+Opera's viewport is around 850. 
+
+When you compare that to an iPhone with a screen width of 320 pixels, you can see that the viewport is much larger than the actual screen itself.
+
+Typically, mobile browsers will display a web page within the viewport and then shrink that viewport down until the content fits within the width of the screen itself.
+
+So, in order to build responsive sites that fit neatly within mobile screen sizes, you'll need to know how to control both the viewport size and its initial scale factor.
