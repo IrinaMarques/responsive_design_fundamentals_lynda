@@ -167,3 +167,44 @@ if {window.devicePixelRatio *** undefined return 1; //Assume a pixel ratio of 1.
 return window.devicePixelRatio;
 }
 // Use devicePixelRatio as a filter to replace specific images and resize them
+
+===============================
+2.5 Understanding media queries
+===============================
+
+Media queries were created to allow designers to extend the media declarations to include various media properties when filtering style application.
+
+Syntax:
+
+@media [not | only] screen [and] (expression) { }
+Contain a media type and one or more expressions.
+This expressions contains media features, which are evaluated to determine styles applied or not.
+Keywords as "and", "not", or "only" help to refine exactly when styles are applied.
+
+media='screen and (min-width: 480px), screen and (orientation: landscape)'
+
+Media features:
+- width *
+- height *
+- device-width *
+- device-height
+- orientation
+- aspect-ratio *
+- device-aspect ratio
+- color
+- color-index *
+- monochrome * 
+- resolution 
+- scan
+- grid
+
+* - are the ones that accepts 'min-' and 'max-' prefixes
+
+Media queries can also be used in several different places:
+- HTML
+- @import to modular stylesheets
+- @media in style sheets themselves
+
+Media queries specification:
+http://goo.gl/rdG8e
+
