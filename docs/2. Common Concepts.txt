@@ -117,3 +117,53 @@ Android uses 4 devices pixel ratios:
 
 The screen densities are important for images.
 When building responsive sites, you'll need to decide whether or not you also want to supply larger images for higher-density screens. 
+
+=================================
+2.4 Designing for multiple screen
+=================================
+
+Reduce bitmap graphics.
+Use vector images like SVG or CSS that way many of the scalling factors will go away.
+
+Try to make your content as scalable as you can. 
+
+SVG:
+Often larger than bitmaps
+Graphics are redrawn with each screen change
+
+CSS:
+Complex artwork is difficult
+Often require non-semantic markup
+Property support isn't universal
+
+Can also use icon fonts
+- easy to size
+- scale automatically with your site's text
+Font Squirrel
+--> http://goo.gl/MZBUV
+
+Raster graphics
+The basic idea is this: if you need an image to be 100 pixels x 100 pixels, you simply create the image at the scaling factor that's appropriate for the targeted screen.
+--> img/raster graphics.png
+
+Screen-density targeting options:
+- Don't target screens, but use high-res graphics where needed
+- High-res graphics are larger in size
+- Not all screens use the same scalling factors
+
+Target the devices themselves, you have two main options at present:
+- Targeting CSS background images, you can use media queries to target specific device-pixel-ratios.
+
+@media screen and (device-pixel-ratio: 2) {
+.highres {background: url (image_highres.jpg):
+background-size: 50%; } }
+
+- Use javascript for other images
+
+// find the device pixel ratio
+// --------
+function getDevicePixelRatio( ) {
+if {window.devicePixelRatio *** undefined return 1; //Assume a pixel ratio of 1.
+return window.devicePixelRatio;
+}
+// Use devicePixelRatio as a filter to replace specific images and resize them
