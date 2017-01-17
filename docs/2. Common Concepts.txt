@@ -236,3 +236,36 @@ max-width: 480px
 480 / 16 (default font size) = 30 em's
 
 To create a layout that's truly responsive, you'll need to combine these breakpoints with fluid grids.
+
+======================
+2.7 Using fluid grids
+======================
+
+One of the best ways to make sure your content works, regardless of the screens being viewed on, is to use a fluid layout so that your content can flex and resize within each of your set breakpoints.
+
+Grid systems are a fantastic way of creating structured, properly proportioned layouts and have been used by designers for decades across multiple disciplines.
+
+Grids are typically defined as a number of columns and gutters that are then used by the designer to establish the widths of page elements and regions.
+
+- 16-pixel-based grid - that's the default font size for most browsers
+--> img/16_pixel_grid.png
+
+- Most popular currently is 960 pixels
+--> img/grid_sizes.png
+
+- Once the grid is established, page elements are mapped to grid coordinates and values are assigned based on where they fit within the grid. To make the grid fluid, you would simply use either relative units of measurement, like ems, or percentage values for the width of the columns and gutters. 
+--> img/grid_system.png
+
+
+Multiple set framework: 
+- The number of columns increases as screen sizes get wider and the width of the gutters change to maintain spatial relationships at each breakpoint
+- It's usually built with an array of classes that define the number of columns that an element should span, any floating or positioning requirements, and the desired padding in margin values. 
+- Additional classes are used to clear floats, define containing elements, and handle any additional layout requirements.
+- Once the framework is built, creating the actual layout becomes fairly simple: based on the desired layout, you simply add the appropriate classes to the appropriate page element.
+--> img/grid_screens.png
+
+Downsides of frameworks:
+- class-based
+- non-semantic
+- container/clearing elements
+- large in size/extra code
