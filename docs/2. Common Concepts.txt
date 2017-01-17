@@ -316,3 +316,41 @@ Issues:
 - more complex solution
 - slower load times
 
+=============================================
+2.9 Examining the future of responsive images
+=============================================
+
+To truly have responsive images, we need to have the ability to choose which image is served to which device. We need to have the ability to make sure the right image is served to the right context.
+
+Determinated by three factors:
+- screen size
+- screen density
+- bandwidth
+
+--> img/screen_density_bandwidth.png
+
+Possible solutions:
+
+1.
+- new attribute called srcset: would allow authors to provide a comma-separated list of images and related property such as viewport width, height, and pixel density, that the user agent could then use to determine which image to use.
+
+Benefits:
+- straight forward
+- uncluttered
+- no new html elements backwards compatible
+
+--> img/solution_1.png
+
+2.
+- New element <picture>.
+
+Benefits:
+- acts as a parent for range of <img> elements. Multiple source options with alternate images, images porperties, and media queries. User agentes selects matching images.
+
+--> img/solution_2.png
+
+This already includes the new syntax - srcset - 
+
+Issues surrounding responsive images illustrate the fact that responsive design is a totally new approach to designing websites. And many aspects of it are still evolving.
+
+As such, as a designer, you're going to need to pay careful attention that how techniques change and how implementations are carried out so that you're prepared to adopt them as they mature.
