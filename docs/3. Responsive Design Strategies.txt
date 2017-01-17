@@ -15,3 +15,48 @@ Currently, many designers work like this:
 End result: driven at this late stage by budget concerns or a site structure that doesn't lend itself to mobile devices.
 
 You have to ensure that your design is targeting the appropriate context in which the site will be used, and that you understand those contexts well enough to make decisions when they conflict with each other.
+
+=================================
+3.2 Planning a responsive design
+=================================
+
+Things you need to consider when planning for responsive design:
+
+1. 
+Know our content - It's all about the content 
+
+Responsive design is about to take the content strategy focus to a whole new level.
+Create a content inventory and give a hieratchy - becomes easier to determine how to structure and design
+- how much content the site will have
+- how important that content is in relation to each other
+
+2.
+Starting with a mobile wireframe and then expanding that to a desktop version, or working on mobile and desktop wireframes simultaneously. 
+- focus regarding content
+- how content should be presented
+- force to design in a narrow linear space 
+- help to redifine what's really important
+- helps to plan the initial structure of the page and how content is going to chnge across screen sizes
+
+3.
+Think about the breakpoints
+First the small screen size to support and go to the largest
+Ex.
+480px
+800px
+1024px
+1200px
+The easiest way to do this is to plan out what your content is going to look like at both of those initial stages and then decide when room for extra columns or content regions appear. 
+You're letting the expanding width to the screen dictate the flow of content.
+
+Smaller breakpoint - tweak points, allow you to refine your designs throughout the scaling process.
+--> img/tweak_points.png
+
+4.
+Device specific functionality
+It's important to start thinking about when and if it's appropriate to include device-specific capabilities, like geolocation, instant messaging, and touch sensitivity.
+Thinking about how the site will function within each context is just as important, if not more so, than how the layout will change and should be planned in parallel to your initial mockups.
+
+5.
+Single document structure
+By considering all of these factors at the very beginning of a project, you can ask yourself a very important question: Given the goals of the site, the content involved, and the desire to user experience, can you create them all within a single document structure?  
