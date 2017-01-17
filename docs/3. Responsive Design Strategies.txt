@@ -1,0 +1,17 @@
+=========================================
+3.1 Designing for the appropriate context
+=========================================
+
+To build a successful responsive site:
+- make designing for multiple user contexts
+- process and carefully consider how your site should function within those contexts
+
+There are going to be times when a separate mobile site or application is the better choice.
+
+Currently, many designers work like this:
+- They develop a site with a client
+- Test it across multiple browsers on a desktop
+- As the project nears completion, spend some time thinking about how the content should look on mobile devices. 
+End result: driven at this late stage by budget concerns or a site structure that doesn't lend itself to mobile devices.
+
+You have to ensure that your design is targeting the appropriate context in which the site will be used, and that you understand those contexts well enough to make decisions when they conflict with each other.
