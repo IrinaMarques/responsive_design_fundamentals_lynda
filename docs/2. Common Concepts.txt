@@ -271,7 +271,7 @@ Downsides of frameworks:
 - large in size/extra code
 
 =============================
-2.7 Making images responsive
+2.8 Making images responsive
 =============================
 
 --> img/making_images_responsive.png
@@ -282,7 +282,7 @@ Problems:
 
 -- Make images responsive --
 
-1.
+1. Solution
 - Replace the fixed dimensions with percentages or relative units. ( -->img/fixed_percentange_images.png). Add a max-width property avoid scaling the image past its original size.
 Place the image in a flexible container  and use max-width equals to 100% property to constrain the image to the size of its container.
 
@@ -294,7 +294,7 @@ Issues:
 - Carefull with width and max-width (-->img/width_max-width.png)
 - large images = slower download, especially for mobile
 
-2.
+2. Solution
 - If the image is purely decorative and not really necessary to the structure of the page, you could serve the image as a background image. 
 Separated media queries ensuring that you're requesting only the image that you need for the proper device. Allows:
 - control the image size
@@ -307,7 +307,7 @@ Issues:
 - Limited - only for images that don't need to be in html. 
 - Older android devices - all the background images would be downloaded.
 
-3.
+3. Solution
 - Using Javascript - examine the page, determine the context and serve the appropriate image.
 --> https://github.com/scottjehl/picturefill
 - You just modify your .htaccess file, link to their responsive images JavaScript file, and add a query string on any image that requires a larger desktop version of that image. The script will then parse the page and replace the smaller images with the larger ones when they're appropriate.
