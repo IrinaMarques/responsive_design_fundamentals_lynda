@@ -409,3 +409,31 @@ Proper form element: for mobile users
 10.
 In some cases, what works for one context isn't going to necessarily work for another. 
 Often, you'll be able to use a combination of media queries and JavaScript to modify forms across devices, but there will be times that creating separate forms from mobile devices is the better option. Just be sure to carefully consider user requirements when designing forms and make sure that you're providing users with the best experience possible across devices.
+
+===============================
+2.11 Improving site performance
+===============================
+
+Problems in mobile devices:
+- network connections
+- bandwidth speed
+- wi-fi
+
+Keep code lean:
+- use standards compliant code
+- eliminate extraneous markup
+- keep external scripts and styles lean and efficient
+
+Combine external style sheets and scripts, when possible, into single documents - @media
+Combine scripts - Quickconcat and enhance.js
+
+If an image is decorative - make a background image and only requested in the appropriate media query. 
+Use CSS3 capabilities:
+- gradients
+- rounded corners
+- transforms
+Can draw simple buttons and icons and eliminate images
+
+Combine images and icons into sprites so that you're using the same image for multiple icons and user interface elements. A data URI allows you to embed images directly into your CSS without having to request the image from the server.
+
+Always minify and compress external resources, but it's also a good idea to evaluate whether or not you really can eliminate some of that redundant or unnecessary code
