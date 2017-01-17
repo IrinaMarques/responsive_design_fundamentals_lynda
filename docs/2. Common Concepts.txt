@@ -354,3 +354,58 @@ This already includes the new syntax - srcset -
 Issues surrounding responsive images illustrate the fact that responsive design is a totally new approach to designing websites. And many aspects of it are still evolving.
 
 As such, as a designer, you're going to need to pay careful attention that how techniques change and how implementations are carried out so that you're prepared to adopt them as they mature.
+
+===============================
+2.10 Building responsive forms
+===============================
+
+1.
+Forms
+- clear 
+- easy to fill out
+
+2.
+We have to think in building forms to mobile first.
+--> img/forms.png
+Forms and mobile devices: That's because within the mobile context there are usability considerations that users don't really run into on desktop devices.
+
+Form layout is the one aspect of page layout where tables just refuse to die.
+Use structural elements like lists and field sets to propertly mark up form structure.
+
+3.
+Labels beside form elements for wider screens, but as the screen sizes become smaller, you need to start putting the labels on top of the input elements to save screen real estate and make your forms easier to read.
+
+4.
+Color and sections helps guide users through the form. 
+
+5.
+Group form elements because of the size of the screen in mobile devices - use the same height.
+
+Make sure that the form elements have enought sapce between them because of the touch. (--> img/form_distance.png)
+
+It's helpful to wrap input elements with label tags rather than associating labels with the for attribute. By wrapping inputs with label tags, both the input element and the label text become responsive to clicking or touch, giving mobile users a larger target region when activating form elements. (--> img/label_attribute.png)
+
+6.
+Make sure we are using the new HTML5 attributes when appropriate. (-->
+img/new_html5_form_attributes.png)
+- email
+- URL
+- search
+
+7. 
+One of best practive is to use a descriptive text to help users filling up the form. In mobile it's better to use a placeholder data in the form elements. (--> img/placeholder.png)
+
+8. 
+Form validation should be placed by client-side validation. Use required. 
+--> img/form_validation.png
+
+9. 
+Proper form element: for mobile users 
+- use form elements to make submiting data easier 
+- automate input when possible
+- combine elements to require less input for to the user
+--> img/plan.png
+
+10.
+In some cases, what works for one context isn't going to necessarily work for another. 
+Often, you'll be able to use a combination of media queries and JavaScript to modify forms across devices, but there will be times that creating separate forms from mobile devices is the better option. Just be sure to carefully consider user requirements when designing forms and make sure that you're providing users with the best experience possible across devices.
