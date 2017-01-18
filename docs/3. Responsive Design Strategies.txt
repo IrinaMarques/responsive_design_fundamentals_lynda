@@ -257,3 +257,25 @@ http://twitter.github.com/bootstrap/
 http://html5boilerplate.com/mobile
 
 http://www.getskeleton.com
+
+=======================================
+3.10 Looking at responsive design tools
+=======================================
+
+1.
+http://ggo.gl/VwZtu
+
+Web designs sketch sheets created by Jeremy Alford
+Sketch ideas before creating code. Helps visualize how content will be presented and work through a site's responsiveness before actually authoring any of the CSS. 
+
+2.
+http://fitvidsjs.com
+For responsive videos.
+
+3.
+http://goo.gl/0csSJ
+Overflow polyfill for responsive design.
+
+4.
+http://responsejs.com
+JQuery library that focuses on building responsive designs. 
