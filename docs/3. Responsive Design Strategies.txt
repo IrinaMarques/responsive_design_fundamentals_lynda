@@ -60,3 +60,31 @@ Thinking about how the site will function within each context is just as importa
 5.
 Single document structure
 By considering all of these factors at the very beginning of a project, you can ask yourself a very important question: Given the goals of the site, the content involved, and the desire to user experience, can you create them all within a single document structure?  
+
+================================
+3.3 Building responsive mockups
+================================
+
+--> img/mockup_sizes.png
+
+Mockups:
+Small screen - Smartphones
+Medium screen - Tablets
+Large screen - Desktop
+
+Designing in a browser
+- design flexible layouts
+- start with extremes
+- define breakpoints and tweak points
+- can be used for prototyping
+
+http://jeremypalford.com/arch-journal/responsive-web-design-sketch-sheets
+
+http://www.mightymeta.co.uk/responsive-web-design-sketch-sheets/
+
+Keynote and PowerPoint
+- abillity to import costum graphics
+- animation capabilities
+
+http://www.getskeleton.com/#grid
+
