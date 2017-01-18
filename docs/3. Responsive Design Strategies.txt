@@ -170,3 +170,40 @@ Location detection:
 - modernizr javascript library (helps you detect support for things like geolocation and touch events, and then manages resources and scripting based on support)
 
 Things can get much trickier if you're attempting to use native device features such as cameras or audio. Now, often these features require you to use a third-party framework to bridge that gap between the phone and your site.
+
+==========================
+3.7 Creating flexible HTML
+==========================
+
+--> img/flexible_html.png
+
+- write clean code
+- adopt HTML5
+- microformats
+www.microformats.org
+www.schema.org
+www.w3.org/TR/microdata
+--> microformats.html
+
+- standards for each content area
+
+Creating smaller sections of content can provide you with modular content blocks that are easier to manipulate over multiple layouts.
+
+- eassess layout goals
+- scripting
+
+http://github.com/filamentgroup/southstreet
+
+- scripting
+extraneous markup
+slow page loads
+
+CSS layout techniques are not suited for responsive design:
+- Float-based layouts are directly tied to source order, making it almost impossible to dramatically reorder elements from one screen size to another.
+
+Flexbox:
+http://goo.gl/m7Lh6
+
+Grid Template Layout Module
+http://goo.gl/Ch2O2
+
