@@ -234,3 +234,24 @@ http://goo.gl/GB2WY
 
 WebKit
 http://goo.gl/UrcSp
+
+=========================
+4.9 Fluid Grid Frameworks
+=========================
+
+Fluid Grid Frameworks:
+- speed up development
+- helps keep consistent code
+- solid starting code base
+- can add unnecessary code 
+- some require non-semantic code
+
+http://www.responsivegridsystem.com
+
+http://foundation.zurb.com
+
+http://twitter.github.com/bootstrap/
+
+http://html5boilerplate.com/mobile
+
+http://www.getskeleton.com
