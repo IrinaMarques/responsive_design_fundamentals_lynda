@@ -137,3 +137,36 @@ Mobile devices:
 - feautures like: gps, touch events, accelerometer, phones, messaging. 
 
 If we take these capabilities into consideration as we plan our sites, we're likely to rethink the ways that users can connect and interact with our content.
+
+=====================================
+3.6 Designing for mobile capabilities
+=====================================
+
+Some of the more prominent features of mobile devices:
+- location
+- accelerometer
+- built in compass
+- media/cameras/pictures
+- touch screens
+- phone
+How do these features affect my content?
+
+First step is to carefully consider whether taking advantage of these features is appropriate or not, given the goals of your site. 
+
+How will users interact with my site?
+What are my users expectations?
+How do features affect my page structure and design?
+How will the functionality be replaced?
+
+Responsive design forces you to consider functionality across multiple contexts. 
+
+To create a phone number:
+- mark up the phone number in an anchor tag using the telephone URL scheme. 
+- hide the link on desktops using CSS since desktop browsers don't really support it.
+<a href='tel:+18005551234'>18005551234</a>
+
+Location detection:
+- involve using JavaScript APIs like geolocation
+- modernizr javascript library (helps you detect support for things like geolocation and touch events, and then manages resources and scripting based on support)
+
+Things can get much trickier if you're attempting to use native device features such as cameras or audio. Now, often these features require you to use a third-party framework to bridge that gap between the phone and your site.
