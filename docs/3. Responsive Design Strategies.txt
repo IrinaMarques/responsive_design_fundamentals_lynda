@@ -207,3 +207,30 @@ http://goo.gl/m7Lh6
 Grid Template Layout Module
 http://goo.gl/Ch2O2
 
+===============================
+3.8 Testing responsive designs
+===============================
+
+- Resize the browser 
+- Other tools:
+http://goo.gl/Pd9T2
+http://responsinator.com
+http://screenqueri.es
+http://goo.gl/qkq1F
+
+Mobile emulator:
+It's a program that does its best to simulate a specific mobile device, browser, or operating system. 
+- Test Iphone.com
+- Opera mini simulator
+Download and install:
+- opera Mobile emulator
+- Apple SDK
+- Android SDK
+
+http://goo.gl/DMLHk
+
+Opera:
+http://goo.gl/GB2WY
+
+WebKit
+http://goo.gl/UrcSp
