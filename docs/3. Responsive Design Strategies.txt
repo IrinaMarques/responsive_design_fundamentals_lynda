@@ -236,7 +236,7 @@ WebKit
 http://goo.gl/UrcSp
 
 =========================
-4.9 Fluid Grid Frameworks
+3.9 Fluid Grid Frameworks
 =========================
 
 Fluid Grid Frameworks:
@@ -245,6 +245,8 @@ Fluid Grid Frameworks:
 - solid starting code base
 - can add unnecessary code 
 - some require non-semantic code
+
+Looking at responsive design tools
 
 http://www.responsivegridsystem.com
 
