@@ -121,3 +121,19 @@ Breaking your site's content into discrete chunks like this can often lead to su
 
 Creating this content hierarchy and visualizing how it needs to change over screen sizes will make it much, much easier for you to structure your pages and write your styles.
 --> img/content_hierarchy.png
+
+====================================
+3.5 Understanding the mobile context
+====================================
+
+--> img/mobile_context.png
+
+--> img/mobile_devices.png
+
+Mobile devices:
+- screen are small: rethink how we prioritize and present content
+- multiple screen sizes
+- always connected
+- feautures like: gps, touch events, accelerometer, phones, messaging. 
+
+If we take these capabilities into consideration as we plan our sites, we're likely to rethink the ways that users can connect and interact with our content.
