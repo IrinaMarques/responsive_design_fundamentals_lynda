@@ -88,3 +88,36 @@ Keynote and PowerPoint
 
 http://www.getskeleton.com/#grid
 
+======================================================
+3.4 Developing a content strategy for responsive sites
+======================================================
+
+Content strategy is extremely important to responsive design:
+- identify content
+- organizing content
+- managing content
+
+--> img/decreasing_columns_content_strategy.png
+
+As small as the columns system gets its difficult to manage the information.
+
+--> img/desktop_example.png
+
+Goals:
+- create a responsive layout that emphasizes the most important content
+- makes the relationships between content clear
+- and provides ways for accessing content in an efficient manner on smaller screens
+
+1.
+Start with the content: 
+- Inventory the content that will appear on your pages, and begin to categorize it.
+- Prioritize: page related to each other? Which content is more important? Should the content be repeated on other pages? How many categories?
+
+Content strategists will often design diagrams of your site's content, which can help you visualize relationships, categorize it, and establish hierarchies.
+
+Breaking your site's content into discrete chunks like this can often lead to surprising discoveries in terms of how you build pages and group content in unexpected ways. It will also help you generate a set of rules that govern how content should be displayed and shifted as screen sizes change. 
+
+--> img/several_displays.png
+
+Creating this content hierarchy and visualizing how it needs to change over screen sizes will make it much, much easier for you to structure your pages and write your styles.
+--> img/content_hierarchy.png
